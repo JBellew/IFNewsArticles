@@ -142,7 +142,6 @@ export class Visual implements IVisual {
             $('#newsDate').text(rowData.Date + ' ' + rowData.Author);   // Insert plain text for date and author
             $('#newsContent').html(DOMPurify.sanitize(rowData.AllContent)); // eslint-disable-line powerbi-visuals/no-implied-inner-html
             $('#moreNews').show();
-            console.log(rowData.Author);
         });
     }
 

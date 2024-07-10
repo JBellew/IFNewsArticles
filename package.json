@@ -1,0 +1,48 @@
+{
+  "name": "visual",
+  "description": "default_template_value",
+  "version": "1.0.0.0",
+  "repository": {
+    "type": "default_template_value",
+    "url": "default_template_value"
+  },
+  "license": "MIT",
+  "scripts": {
+    "pbiviz": "pbiviz",
+    "start": "pbiviz start",
+    "package": "pbiviz package",
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "dependencies": {
+    "@types/d3": "7.4.0",
+    "d3": "7.8.5",
+    "datatables.net": "^2.0.8",
+    "datatables.net-bs5": "^2.0.8",
+    "datatables.net-dt": "^1.10.21",
+    "dompurify": "^3.1.6",
+    "jquery": "^3.7.1",
+    "moment": "^2.30.1",
+    "powerbi-visuals-api": "~5.3.0",
+    "powerbi-visuals-utils-formattingmodel": "^6.0.2"
+  },
+  "devDependencies": {
+    "@types/datatables.net": "^1.12.0",
+    "@types/jquery": "^3.5.30",
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "base64-inline-loader": "^2.0.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "eslint": "^8.42.0",
+    "eslint-plugin-powerbi-visuals": "^0.8.1",
+    "imports-loader": "^5.0.0",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "powerbi-visuals-webpack-plugin": "^4.1.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "4.9.3",
+    "webpack": "^5.92.1",
+    "webpack-cli": "^5.1.4"
+  }
+}

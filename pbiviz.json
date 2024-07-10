@@ -1,0 +1,26 @@
+{
+    "visual": {
+      "name": "WeeklyNewsTable",
+      "displayName": "Weekly News Table",
+      "guid": "WeeklyNewsTableGUID",
+      "visualClassName": "Visual",
+      "version": "1.0.0.2",
+      "description": "A custom visual to display weekly news in a table using DataTables.js.",
+      "supportUrl": "http://www.bellews.com",
+      "gitHubUrl": ""
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+      "name": "John Bellew",
+      "email": "johnbellew@bellews.com"
+    },
+    "assets": {
+      "icon": "assets/newsIcon.png"
+    },
+    "externalJS": [],
+    "externalCSS": [],
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null
+  }
+  

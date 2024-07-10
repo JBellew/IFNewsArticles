@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.2",
+		"author": {"name":"John Bellew","email":"johnbellew@bellews.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/WeeklyNewsTableGUID.pbiviz.json"
+			}
+		],
+		"visual": {"name":"WeeklyNewsTable","displayName":"Weekly News Table","guid":"WeeklyNewsTableGUID","visualClassName":"Visual","version":"1.0.0.2","description":"A custom visual to display weekly news in a table using DataTables.js.","supportUrl":"http://www.bellews.com","gitHubUrl":""},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}

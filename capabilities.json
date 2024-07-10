@@ -1,0 +1,104 @@
+{
+  "dataRoles": [
+    {
+      "name": "title",
+      "kind": "Grouping",
+      "displayName": "Title"
+    },
+    {
+      "name": "date",
+      "kind": "Grouping",
+      "displayName": "Date"
+    },
+    {
+      "name": "summary",
+      "kind": "Grouping",
+      "displayName": "Summary"
+    },
+    {
+      "name": "allContent",
+      "kind": "Grouping",
+      "displayName": "All Content"
+    },
+    {
+      "name": "author",
+      "kind": "Grouping",
+      "displayName": "Author"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "table": {
+        "rows": {
+          "select": [
+            {
+              "for": {
+                "in": "title"
+              }
+            },
+            {
+              "for": {
+                "in": "date"
+              }
+            },
+            {
+              "for": {
+                "in": "author"
+              }
+            },
+            {
+              "for": {
+                "in": "summary"
+              }
+            },
+            {
+              "for": {
+                "in": "allContent"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "objects": {
+    "tableSettings": {
+      "displayName": "Table Settings",
+      "properties": {
+        "headerColor": {
+          "displayName": "Header Color",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "headerFontColor": {
+          "displayName": "Header Font Color",
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "tableHeight": {
+          "displayName": "Table Height",
+          "type": {
+            "numeric": true
+          }
+        },
+        "pageLength": {
+          "displayName": "Page Length",
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    }
+  },
+  "privileges": []
+}
